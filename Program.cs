@@ -8,10 +8,10 @@ Console.WriteLine("Informe a terceira nota (0 - 10):");
 nota3 = double.Parse(Console.ReadLine());
 mediaTotal = (nota1 + nota2 + nota3)/3;
     if(mediaTotal >= 6 && mediaTotal <= 10) {
-    Console.WriteLine($"Parabéns! Você está aprovado com média {mediaTotal}");
+    Console.WriteLine($"Parabéns! Você está aprovado com média {mediaTotal}.");
 }
     else if(mediaTotal >= 5 && mediaTotal < 6 ) {
-    Console.WriteLine($"Você está em recuperação com média {mediaTotal}");
+    Console.WriteLine($"Você está em recuperação com média {mediaTotal}.");
 }
     else {
         Console.WriteLine($"Com a média {mediaTotal}, você está reprovado!");
